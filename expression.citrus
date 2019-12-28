@@ -1,0 +1,14 @@
+grammar ExpressionCheck
+rule expr
+multiplyexpr|digit|addexpr
+end
+rule multiplyexpr
+'(multiply'[ ]expr[ ]expr')'
+end
+rule addexpr
+'(add'[ ]expr[ ]expr')'
+end
+rule digit
+		[0-9]+
+end
+end
