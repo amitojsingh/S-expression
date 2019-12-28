@@ -39,7 +39,7 @@ class Expression
   def simplify
     @@stack = []
     @expression.reverse.each do |digit|
-      if digit.to_i != 0
+      if !digit.match(/[a-z]/)
         @@stack.push(digit)
       else
         operand1 = @@stack.pop
