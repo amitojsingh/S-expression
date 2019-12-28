@@ -14,6 +14,7 @@ usage
 
 
 ## Prerequsitie
+It's important to install these two prerequisitie to run this program
 1. Install Ruby 
 
 For windows
@@ -23,8 +24,10 @@ For Linux
 >$sudo apt-get install ruby-full
 
 2. Install Citrus
+open cmd in windows or opern Terminal in Linux
+Type
 
-gem install citrus
+>gem install citrus
 
 
 ### How to run the program
