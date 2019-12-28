@@ -20,7 +20,7 @@ For windows
 https://rubyinstaller.org/downloads/
 
 For Linux
-$sudo apt-get install ruby-full
+>$sudo apt-get install ruby-full
 
 2. Install Citrus
 
